@@ -4,11 +4,12 @@ Gem::Specification.new do |s|
   s.name        = 'spree_cybersource_gateway'
   s.version     = '0.70.2'
   s.summary     = 'This is implementation of CyberSource Payment gateway into Spree'
-  s.description = 'This is implementation of CyberSource Payment gateway into Spree'
+  #s.description = 'This is implementation of CyberSource Payment gateway into Spree'
   s.required_ruby_version = '>= 1.8.7'
   s.author            = 'Jay @ Rortechie'
   s.email             = 'dev@rortechie.com'
   s.homepage          = 'http://www.rortechie.com'
+  s.files        = Dir['CHANGELOG', 'README.md', 'LICENSE', 'lib/**/*', 'app/**/*', 'db/**/*', 'public/**/*']
   s.require_path = 'lib'
   s.requirements << 'none'
 
