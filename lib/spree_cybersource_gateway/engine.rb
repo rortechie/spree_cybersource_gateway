@@ -28,7 +28,7 @@ module SpreeCybersourceGateway
         app.config.spree.payment_methods += [
           Gateway::CyberSource
         ]
-	
+       end
     config.to_prepare &method(:activate).to_proc
   end
 end
