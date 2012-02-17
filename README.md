@@ -5,7 +5,7 @@ Welcome to RoRtechie.com
 This gem provides very simple integration of Cybersource with Spree.
 Include the gem into your Gemfile as follows
 
-gem 'spree_cybersource_gateway', :git => 'git://github.com/rortechie/spree_cybersource_gateway.git',:branch => "master"
+gem "spree_cybersource_gateway", :path => "../spree_cybersource_gateway"
 
 Then
 
